@@ -1,5 +1,8 @@
 body {
-    background-color: beige;
+    font-family: 'Calibri';
+    /* color: #9498A5; */
+    color: #333751;
+    /* background-color: beige; */
 }
 
 .container {
@@ -10,7 +13,7 @@ body {
 .flex-container {
     border: 1px solid black;
     background: #ccc;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -30,8 +33,31 @@ body {
 .flex-container li a {
     border: 1px solid black;
     text-decoration: none;
+    color: #9498A5;
+    font-weight: bold;
 }
 
 .logo {
+    width: 100%;
+}
+
+.caja-banner {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.caja-text {
+    width: 50vw;
+    border: 1px solid black;
+}
+
+.caja-img {
+    width: 50vw;
+    border: 1px solid black;
+    background-size: cover;
+}
+
+.banner-principal {
     width: 100%;
 }
