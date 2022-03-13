@@ -1,0 +1,37 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    /* width: 90%; */
+    margin: 0 auto;
+}
+
+.flex-container {
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caja {
+    border: 1px solid black;
+    width: 300px;
+}
+
+.flex-container li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+.flex-container li a {
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100%;
+}
