@@ -39,7 +39,7 @@ li {
 .flex-container li a {
     /* border: 1px solid black; */
     text-decoration: none;
-    color: #9498A5;
+    color: #838691;
     font-weight: bold;
 }
 
@@ -132,6 +132,14 @@ p {
     padding: 15px 35px;
     margin-left: 50px;
     /* border: 1px solid black; */
+}
+
+.flex-container li .btn-nav {
+    background-color: #164BDC;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 35px;
 }
 
 input, select{
