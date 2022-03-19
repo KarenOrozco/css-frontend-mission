@@ -8,6 +8,15 @@ body {
     /* background-color: beige; */
 }
 
+.no-margin {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.text-small {
+    font-size: small;
+}
+
 .container {
     /* width: 90%; */
     margin: 0 auto;
@@ -29,6 +38,10 @@ nav {
 
 .caja {
     width: 300px;
+}
+
+.footer, .footer li{
+    padding-left: 0;
 }
 
 li {
@@ -110,6 +123,13 @@ p {
     border-radius: 20%;
 }
 
+.icon-blue-large {
+    background-color: #46d1fc96;
+    padding: 20px 10px 20px 10px;
+    color: #00ccffef;
+    border-radius: 20%;
+}
+
 .schedule {
     display: flex;
     flex-flow: row wrap;
@@ -137,6 +157,16 @@ p {
     padding: 15px 35px;
     margin-left: 50px;
     /* border: 1px solid black; */
+}
+
+.btn-contact {
+    background-color: #164BDC;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 35px;
+    margin-top: 15px;
+    width: 100%;
 }
 
 .flex-container li .btn-nav {
@@ -193,15 +223,27 @@ input, select{
     box-shadow: 0px 10px 10px -6px #747474;
     border-radius: 16px;
     padding: 30px;
-    margin: 10px;
+    margin: auto;
 }
 
 .caja-preparation {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja-x {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .accordion {
-    background-color: #eee;
+    background-color: white;
+    box-shadow: 0px 10px 10px -6px #7474747c;
+    border-radius: 10px;
+    margin-bottom: 15px;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -230,6 +272,7 @@ input, select{
 .caja-contact {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
     width: 50vw;
 }
 
@@ -272,20 +315,21 @@ hr {
 
 .divisor-start {
     display: flex;
+    flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
 }
 
 .caja-color {
-    /* height: 80%; */
     width: 50vw;
-    background-color: blue;
+    background: linear-gradient(to top, blue 0%, blue 70%, white 70%, white 100% );
+    margin-bottom: 3em;
 }
 
 .image-secondary {
-    /* height: 80vh; */
-    width: 100%;
     height: 80vh;
+    width: 100%;
+    /* height: 80vh; */
     background-position: center center;
     object-fit: cover;
 }
@@ -298,3 +342,8 @@ hr {
     border-left: 100px solid transparent;
     border-bottom: 100px solid #f0ad4e;
 }
+
+.caja-superposition {
+    position: absolute;
+}
+
